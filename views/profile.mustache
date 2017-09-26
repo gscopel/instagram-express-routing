@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+
+  <body>
+    <h1>{{status}}</h1>
+
+          <ol>
+              {{#items}}
+                <!--/post reroutes from profile page to post page-->
+                <li><a href='/post/{{ code }}'>{{ code }}</a></li>
+
+              {{/items}}
+          </ol>
+
+  </body>
+</html>
